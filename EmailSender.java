@@ -16,8 +16,8 @@ public class EmailSender {
 
     final static int port = 25;
     final static String hostname = "gmail-smtp-in.l.google.com";
-    final static String from = "phanh5@wit.edu";
-    final static String to = "anwaruddin.m@gmail.com";
+    final static String from = "abc@wit.edu";
+    final static String to = "abcm@gmail.com";
 
     public static void main(String[] args) throws Exception {
         
