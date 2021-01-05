@@ -102,11 +102,7 @@ public class EmailSender {
         System.out.println(mess2 + "    " + response);
 
         //Code Goes Here
-        String mess3 = "My name is Hao phan, and my partner is Nhu Nguyen.\r\n"
-                + "And We are going to do chess game\r\n"
-                + "Happy Thanksgiving\r\n\n"
-                + "Best regards,\r\n"
-                + "Hao Phan\r\n";
+        String mess3 = "Message here.\r\n";;
         os.write(mess3.getBytes("US-ASCII"));
         // response = br.readLine();
         System.out.println(mess3 + "    " + response);
